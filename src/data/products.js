@@ -88,7 +88,7 @@ export const products = [
     weave: "Block Print",
     size: "90x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
+      "/newbedsheet.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
     ],
