@@ -1,9 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Cart from '../components/Cart';
+import emailjs from '@emailjs/browser';
 import './AboutPage.css';
 
 const AboutPage = () => {
   const [animatedElements, setAnimatedElements] = useState(new Set());
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+  const [isSending, setIsSending] = useState(false);
+  const [sendStatus, setSendStatus] = useState(''); // 'success', 'error', or ''
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -22,6 +31,42 @@ const AboutPage = () => {
 
     return () => observer.disconnect();
   }, []);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsSending(true);
+    setSendStatus('');
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    // IMPORTANT: Make sure you have created a .env file in the 'frontend'
+    // directory with your EmailJS credentials.
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      templateParams,
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
+      setSendStatus('success');
+      setIsSending(false);
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    }, (err) => {
+      console.error('FAILED TO SEND EMAIL...', err);
+      setSendStatus('error');
+      setIsSending(false);
+    });
+  };
 
   return (
     <div className="about-page">
@@ -264,24 +309,28 @@ const AboutPage = () => {
             </div>
             
             <div className={`contact-form animate-on-scroll ${animatedElements.has('contact-form') ? 'animated' : ''}`} id="contact-form">
-              <form className="form">
+              <form className="form" onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="name">Your Name</label>
-                  <input type="text" id="name" name="name" className="form-input" required />
+                  <input type="text" id="name" name="name" className="form-input" value={formData.name} onChange={handleInputChange} required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
-                  <input type="email" id="email" name="email" className="form-input" required />
+                  <input type="email" id="email" name="email" className="form-input" value={formData.email} onChange={handleInputChange} required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="subject">Subject</label>
-                  <input type="text" id="subject" name="subject" className="form-input" required />
+                  <input type="text" id="subject" name="subject" className="form-input" value={formData.subject} onChange={handleInputChange} required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="message">Message</label>
-                  <textarea id="message" name="message" className="form-textarea" rows="5" required></textarea>
+                  <textarea id="message" name="message" className="form-textarea" rows="5" value={formData.message} onChange={handleInputChange} required></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">Send Message</button>
+                <button type="submit" className="btn btn-primary" disabled={isSending}>
+                  {isSending ? 'Sending...' : 'Send Message'}
+                </button>
+                {sendStatus === 'success' && <p className="form-feedback success">Message sent successfully! We'll get back to you soon.</p>}
+                {sendStatus === 'error' && <p className="form-feedback error">Failed to send message. Please try again later.</p>}
               </form>
             </div>
           </div>
