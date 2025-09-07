@@ -106,7 +106,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Handwoven Cotton Duvet Cover",
+    name: "Handwoven",
     price: 99.99,
     code: "102",
     category: "bedding",
@@ -114,7 +114,7 @@ export const products = [
     weave: "Handwoven",
     size: "86x90 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_1_medium.jpg",
+      "/sofacover.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_2_medium.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_3_medium.jpg"
     ],
