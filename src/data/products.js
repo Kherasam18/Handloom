@@ -139,7 +139,7 @@ export const products = [
     weave: "Charmeuse",
     size: "20x30 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_big.jpg",
+      "/bedding6.jpgs",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_2_big.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_big.jpg"
     ],
