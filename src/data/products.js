@@ -4,7 +4,7 @@ export const products = [
   {
     id: 1,
     name: "Jaipuri Block Print Bedsheet",
-    price: 59.99,
+    price: ,
     code: "101",
     category: "bedding",
     fabric: "100% Cotton",
@@ -164,7 +164,7 @@ export const products = [
     weave: "Block Print",
     size: "90x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
+      "/bedding7.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
     ],
