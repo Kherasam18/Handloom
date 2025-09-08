@@ -106,17 +106,16 @@ export const products = [
   },
   {
     id: 5,
-    name: "Handwoven Cotton Duvet Cover",
+    name: "Handwoven",
     price: 99.99,
     code: "102",
     category: "bedding",
-    fabric: "Organic Cotton",
+    fabric: "Cotton",
     weave: "Handwoven",
     size: "86x90 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_1_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_2_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/3/230713_3_medium.jpg"
+      "/sofacover.jpg",
+      "/bedding5.jpg"
     ],
     bio: "Embrace sustainable luxury with our handwoven organic cotton duvet cover. Each piece tells a story of skilled craftsmanship and environmental consciousness.",
     details: {
@@ -140,7 +139,7 @@ export const products = [
     weave: "Charmeuse",
     size: "20x30 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_big.jpg",
+      "/bedding6.jpgs",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_2_big.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/0/203427_big.jpg"
     ],
