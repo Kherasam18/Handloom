@@ -100,9 +100,9 @@ const ProductModal = ({ product, isOpen, onClose }) => {
               </div>
             </div>
 
-            <div className="product-bio">
+            {/* <div className="product-bio">
               <p>{product.bio}</p>
-            </div>
+            </div> */}
 
             <div className="product-details-section">
               <h3>Details</h3>

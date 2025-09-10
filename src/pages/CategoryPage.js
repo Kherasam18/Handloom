@@ -81,11 +81,11 @@ const CategoryPage = ({ category: categoryProp }) => {
   // Filter products
   const filteredProducts = sortedProducts.filter(product => {
     if (filterBy === 'all') return true;
-    return product.fabric.toLowerCase().includes(filterBy.toLowerCase());
+    return product.type.toLowerCase().includes(filterBy.toLowerCase());
   });
 
-  // Get unique fabrics for filter
-  const fabrics = [...new Set(categoryProducts.map(product => product.fabric))];
+  // Get unique types for filter
+  const types = [...new Set(categoryProducts.map(product => product.type))];
 
   // Map filtered products to ProductCard components
   const productCards = filteredProducts.map((product) => (
@@ -136,16 +136,16 @@ const CategoryPage = ({ category: categoryProp }) => {
           <div className={`controls-bar animate-on-scroll ${animatedElements.has('controls') ? 'animated' : ''}`} id="controls">
             <div className="controls-left">
               <div className="filter-group">
-                <label htmlFor="fabric-filter">Filter by Fabric:</label>
+                <label htmlFor="type-filter">Filter by Type:</label>
                 <select 
-                  id="fabric-filter"
+                  id="type-filter"
                   value={filterBy} 
                   onChange={(e) => setFilterBy(e.target.value)}
                   className="filter-select"
                 >
-                  <option value="all">All Fabrics</option>
-                  {fabrics.map(fabric => (
-                    <option key={fabric} value={fabric}>{fabric}</option>
+                  <option value="all">All</option>
+                  {types.map(type => (
+                    <option key={type} value={type}>{type}</option>
                   ))}
                 </select>
               </div>
