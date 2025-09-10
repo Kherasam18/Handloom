@@ -23,10 +23,7 @@ export const products = [
       "size": "90x100 inches",
       "Origin": "India"
     },
-    reviews: [
-      { name: "Emma Wilson", rating: 5, comment: "So soft and comfortable! Love the natural feel." },
-      { name: "David Park", rating: 4, comment: "Great quality, though a bit pricey. Worth it for the craftsmanship." }
-    ]
+    reviews: [ ]
   },
   {
     id: 2,
