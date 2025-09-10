@@ -16,15 +16,13 @@ export const products = [
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
     ],
     details: {
-      "Thread Count": "200 TC",
-      "Care Instructions": "Machine washable",
-      "Pattern": "Traditional Block Print",
-      "Origin": "Jaipur, Rajasthan"
+      "Product Count": "4 pc",
+      "Color": "Grey White",
+      "fabric": "Cotton",
+      "Pattern": "Geometric",
+      "size": "90x100 inches",
+      "Origin": "India"
     },
-    reviews: [
-      { name: "Sarah Johnson", rating: 5, comment: "Absolutely beautiful! The colors are vibrant and the fabric feels luxurious." },
-      { name: "Michael Chen", rating: 5, comment: "Perfect quality and arrived quickly. Highly recommend!" }
-    ]
   },
   {
     id: 2,
