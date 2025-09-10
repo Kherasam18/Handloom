@@ -15,7 +15,6 @@ export const products = [
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
       "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
     ],
-    bio: "Experience the royal heritage of Rajasthan with our exquisite Jaipuri block print bedsheet. Hand-crafted by skilled artisans using traditional techniques passed down through generations.",
     details: {
       "Thread Count": "200 TC",
       "Care Instructions": "Machine washable",
