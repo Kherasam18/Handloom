@@ -116,7 +116,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
               </div>
             </div>
 
-            <div className="reviews-section">
+            {/* <div className="reviews-section">
               <h3>Customer Reviews</h3>
               <div className="reviews-list">
                 {product.reviews.map((review, index) => (
@@ -133,7 +133,7 @@ const ProductModal = ({ product, isOpen, onClose }) => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div className="modal-actions">
               <button 
