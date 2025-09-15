@@ -18,7 +18,7 @@ export const products = [
       "Color": "Pink White",
       "type": "Semi Cotton",
       "Pattern": "Floral",
-      "size": "108x108 inches",
+      "size": "275x275 cm",
       "Origin": "India"
     },
     reviews: [ ]
@@ -40,7 +40,7 @@ export const products = [
       "Color": "Brown White",
       "type": "Semi Cotton",
       "Pattern": "Floral",
-      "size": "108x108 inches",
+      "size": "275x275 cm",
       "Origin": "India"
     },
     reviews: [ ]
@@ -53,7 +53,7 @@ export const products = [
     category: "bedding",
     type: "7D Bedsheet",
     weave: "Block Print",
-    size: "108x108 inches",
+    size: "275x275 cm",
     images: [
       "Bedding3.jpg"
     ],
@@ -75,7 +75,7 @@ export const products = [
     category: "bedding",
     type: "7D Bedsheet",
     weave: "Block Print",
-    size: "108x108 inches",
+    size: "275x275 cm",
     images: [
       "Bedding4.jpg"
     ],
@@ -97,7 +97,7 @@ export const products = [
     category: "bedding",
     type: "7D Bedsheet",
     weave: "Block Print",
-    size: "108x108 inches",
+    size: "275x275 cm",
     images: [
       "Bedding5.jpg"
     ],
@@ -119,7 +119,7 @@ export const products = [
     category: "bedding",
     type: "7D Bedsheet",
     weave: "Block Print",
-    size: "108x108 inches",
+    size: "275x275 cm",
     images: [
       "Bedding6.jpg"
     ],
@@ -129,6 +129,336 @@ export const products = [
       "type": "Semi Cotton",
       "Pattern": "Floral",
       "size": "108x100 inches",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 7,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding7.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 8,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding8.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 9,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding9.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 10,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding10.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 11,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding11.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 12,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding12.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 13,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding13.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 14,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding14.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 15,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding15.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 16,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "107",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding16.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 17,
+    name: "Digital 7D Bedsheet",
+    price: 599,
+    code: "117",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding17.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Animated",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 18,
+    name: "4pc Comforter Set",
+    price: 939,
+    code: "118",
+    category: "bedding",
+    type: "Comforter Set",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding18.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Blue",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 19,
+    name: "4pc Comforter Set",
+    price: 939,
+    code: "119",
+    category: "bedding",
+    type: "Comforter Set",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding19.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Beige",
+      "type": "Semi Cotton",
+      "Pattern": "Geometrical",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 20,
+    name: "4pc Comforter Set",
+    price: 939,
+    code: "120",
+    category: "bedding",
+    type: "Comforter Set",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding20.png"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Blue White",
+      "type": "Semi Cotton",
+      "Pattern": "Geometrical",
+      "size": "235x250 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 21,
+    name: "4pc Comforter Set",
+    price: 939,
+    code: "121",
+    category: "bedding",
+    type: "Comforter Set",
+    weave: "Block Print",
+    size: "235x250 cm",
+    images: [
+      "bedding21.png"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Red",
+      "type": "Semi Cotton",
+      "Pattern": "Geometric",
+      "size": "235x250 cm",
       "Origin": "India"
     },
     reviews: [ ]
