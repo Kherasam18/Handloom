@@ -463,7 +463,360 @@ export const products = [
     },
     reviews: [ ]
   },
-   
+  {
+    id: 22,
+    name: "HD Print 7D Bedsheet",
+    price: 699,
+    code: "122",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding22.png"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multicolor",
+      "type": "Semi Cotton",
+      "Pattern": "HD Print",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 23,
+    name: "HD Print 7D Bedsheet",
+    price: 699,
+    code: "123",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding23.png"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multicolor",
+      "type": "Semi Cotton",
+      "Pattern": "HD Print",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 24,
+    name: "HD Print 7D Bedsheet",
+    price: 699,
+    code: "124",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding24.png"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multicolor",
+      "type": "Semi Cotton",
+      "Pattern": "HD Print",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 32,
+    name: "Premium Comforter Set",
+    price: 1999,
+    code: "132",
+    category: "bedding",
+    type: "Comfort Set",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding32.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Light Wine",
+      "type": "Cotton",
+      "Pattern": "Floral",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 33,
+    name: "Premium Comforter Set",
+    price: 1999,
+    code: "133",
+    category: "bedding",
+    type: "Comfort Set",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding33.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Brown",
+      "type": "Cotton",
+      "Pattern": "Floral",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 34,
+    name: "Premium Comforter Set",
+    price: 1999,
+    code: "134",
+    category: "bedding",
+    type: "Comfort Set",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding34.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Lemon",
+      "type": "Cotton",
+      "Pattern": "Floral",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 35,
+    name: "Premium Comforter Set",
+    price: 1999,
+    code: "135",
+    category: "bedding",
+    type: "Comfort Set",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding35.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Grey",
+      "type": "Cotton",
+      "Pattern": "Floral",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 36,
+    name: "Premium Comforter Set",
+    price: 1999,
+    code: "136",
+    category: "bedding",
+    type: "Comfort Set",
+    weave: "HD Print",
+    size: "275x275 cm",
+    images: [
+      "bedding36.jpg"
+    ],
+    details: {
+      "Product Count": "4 pc",
+      "Color": "Light Brown",
+      "type": "Cotton",
+      "Pattern": "Floral",
+      "size": "275x275 cm",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+  id: 37,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "137",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding37.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "White",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 38,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "138",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding38.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Light Green",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 39,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "139",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding39.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Blue",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 40,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "140",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding40.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Peach",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 41,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "141",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding41.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "White",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 42,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "142",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding42.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Beige",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 43,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "143",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding43.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Lavender",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+{
+  id: 44,
+  name: "Premium Comforter Set",
+  price: 1999,
+  code: "144",
+  category: "bedding",
+  type: "Comfort Set",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: [
+    "bedding44.jpg"
+  ],
+  details: {
+    "Product Count": "4 pc",
+    "Color": "Light grey",
+    "type": "Cotton",
+    "Pattern": "Floral",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: [ ]
+},
+
+
 
   // Bath Products
   {
