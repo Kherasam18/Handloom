@@ -3,96 +3,132 @@ export const products = [
   // Bedding Products
   {
     id: 1,
-    name: "Jaipuri Block Print Bedsheet",
-    price: 59.99,
+    name: "Pink Floral 7D Bedsheet",
+    price: 399,
     code: "101",
-    type: "Comforter Set",
+    type: "7D Bedsheet",
     category: "bedding",
     weave: "Block Print",
     size: "90x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
+      "Bedding1.jpg",
     ],
     details: {
-      "Product Count": "4 pc",
-      "Color": "Grey White",
-      "type": "Cotton",
-      "Pattern": "Geometric",
-      "size": "90x100 inches",
+      "Product Count": "3 pc",
+      "Color": "Pink White",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x108 inches",
       "Origin": "India"
     },
     reviews: [ ]
   },
   {
     id: 2,
-    name: "Jaipuri Block Print Bedsheet",
-    price: 59.99,
+    name: "Brown Floral 7D Bedsheet",
+    price: 399,
     code: "102",
+    type: "7D Bedsheet",
     category: "bedding",
-    type: "Comforter Set",
     weave: "Block Print",
     size: "90x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
+      "Bedding2.jpg",
     ],
     details: {
-      "Product Count": "4 pc",
-      "Color": "Grey White",
-      "type": "Cotton",
-      "Pattern": "Geometric",
-      "size": "90x100 inches",
+      "Product Count": "3 pc",
+      "Color": "Brown White",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x108 inches",
       "Origin": "India"
     },
     reviews: [ ]
   },
   {
     id: 3,
-    name: "Jaipuri Block Print Bedsheet",
-    price: 59.99,
+    name: "Floral 7D Bedsheet",
+    price: 399,
     code: "103",
     category: "bedding",
-    type: "Comforter Set",
+    type: "7D Bedsheet",
     weave: "Block Print",
-    size: "90x108 inches",
+    size: "108x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
+      "Bedding3.jpg"
     ],
     details: {
-      "Product Count": "4 pc",
-      "Color": "Grey White",
-      "type": "Cotton",
-      "Pattern": "Geometric",
-      "size": "90x100 inches",
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x100 inches",
       "Origin": "India"
     },
     reviews: [ ]
   },
   {
     id: 4,
-    name: "BedSheet Set",
-    price: 59.99,
+    name: "Pink Floral 7D Bedsheet",
+    price: 399,
     code: "104",
     category: "bedding",
-    type: "Bedsheet Set",
+    type: "7D Bedsheet",
     weave: "Block Print",
-    size: "90x108 inches",
+    size: "108x108 inches",
     images: [
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_5_medium.jpg",
-      "https://cdn.ddecor.com/media/catalog/product/cache/07d87d9170de334b4397320786072f99/2/2/226757_1_medium.jpg"
+      "Bedding4.jpg"
     ],
     details: {
-      "Product Count": "4 pc",
-      "Color": "Grey White",
-      "type": "Cotton",
-      "Pattern": "Geometric",
-      "size": "90x100 inches",
+      "Product Count": "3 pc",
+      "Color": "Pink White",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x100 inches",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 5,
+    name: "Floral 7D Bedsheet",
+    price: 399,
+    code: "105",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "108x108 inches",
+    images: [
+      "Bedding5.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x100 inches",
+      "Origin": "India"
+    },
+    reviews: [ ]
+  },
+  {
+    id: 6,
+    name: "Floral 7D Bedsheet",
+    price: 399,
+    code: "106",
+    category: "bedding",
+    type: "7D Bedsheet",
+    weave: "Block Print",
+    size: "108x108 inches",
+    images: [
+      "Bedding6.jpg"
+    ],
+    details: {
+      "Product Count": "3 pc",
+      "Color": "Multi Color",
+      "type": "Semi Cotton",
+      "Pattern": "Floral",
+      "size": "108x100 inches",
       "Origin": "India"
     },
     reviews: [ ]
