@@ -1,3 +1,25 @@
+/* --- Sticky Checkout Button and Scrollable Cart Content --- */
+.cart-footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--white);
+  z-index: 20;
+  padding: 1rem 0 0 0;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 768px) {
+  .cart-footer {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
+}
+
+/* Ensure enough space at the bottom of cart-content for sticky footer */
+.cart-content {
+  padding-bottom: 100px !important;
+}
 .cart-overlay {
   position: fixed;
   top: 0;
