@@ -530,6 +530,146 @@ export const products = [
     reviews: [ ]
   },
   {
+  id: 25,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "125",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding25.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 26,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "126",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding26.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 27,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "127",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding27.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 28,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "128",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding28.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 29,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "129",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding29.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 30,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "130",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding30.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
+  id: 31,
+  name: "HD Print 7D Bedsheet",
+  price: 699,
+  code: "131",
+  category: "bedding",
+  type: "7D Bedsheet",
+  weave: "HD Print",
+  size: "275x275 cm",
+  images: ["bedding31.png"],
+  details: {
+    "Product Count": "3 pc",
+    "Color": "Multicolor",
+    "type": "Semi Cotton",
+    "Pattern": "HD Print",
+    "size": "275x275 cm",
+    "Origin": "India"
+  },
+  reviews: []
+  },
+  {
     id: 32,
     name: "Premium Comforter Set",
     price: 1999,
