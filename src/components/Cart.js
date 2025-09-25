@@ -47,14 +47,16 @@ const Cart = () => {
     }
 
     setIsProcessing(true);
-    
-    // Simulate processing time
+
+    // Generate message and open WhatsApp synchronously for iOS compatibility
+    const message = generateWhatsAppMessage(customerDetails);
+    const whatsappNumber = '+917307119000'; // Replace with actual business WhatsApp number
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+    window.open(whatsappUrl, '_blank');
+
+    // Optionally, you can reset processing after a short delay
     setTimeout(() => {
-      const message = generateWhatsAppMessage(customerDetails);
-      const whatsappNumber = '+917307119000'; // Replace with actual business WhatsApp number
-      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
-      
-      window.open(whatsappUrl, '_blank');
       setIsProcessing(false);
     }, 1000);
   };
